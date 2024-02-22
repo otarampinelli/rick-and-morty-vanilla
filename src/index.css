@@ -43,7 +43,7 @@ footer {
 }
 
 footer > span {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 img {
@@ -74,10 +74,16 @@ img {
   width: 340px;
   height: 500px;
   border-radius: 18px;
+  position: relative;
+  cursor: pointer;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.characters:hover {
+  bottom: 10px;
 }
 
 .characters > .character-infos {
@@ -92,5 +98,5 @@ img {
 }
 
 .location-label {
-    font-weight: 700;
+  font-weight: 700;
 }
